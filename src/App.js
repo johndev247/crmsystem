@@ -1,9 +1,9 @@
 import React from "react";
-
+import LogRegFormEntry from "./Entries/Log-RegFormEntry/LogRegFormEntry";
 function App() {
   return (
     <>
-      <h1>HELLO</h1>
+      <LogRegFormEntry />
     </>
   );
 }
