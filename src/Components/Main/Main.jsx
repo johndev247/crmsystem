@@ -1,12 +1,15 @@
 import React from "react";
-import { MainGrid } from "../../Styles/grid.style";
-import Dashboard from "../Dashboard/Dashboard";
-
-const Main = () => {
+import UserDashboardEntry from "../AppEntries/UserDashboardEntry";
+import Footer from "../LogedEntry/Footer/Footer";
+import Navbar from "../LogedEntry/Navbar/Navbar";
+import { MainContainer } from "./main.style";
+const Main = ({ children }) => {
   return (
-    <MainGrid>
-      <Dashboard />
-    </MainGrid>
+    <>
+      <Navbar />
+      <MainContainer>{children}</MainContainer>
+      <Footer />
+    </>
   );
 };
 

@@ -2,14 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import GlobalStyle, { AppContainer } from "./Styles/globalStyles";
+import GlobalStyle from "./Styles/globalStyles";
 
 ReactDOM.render(
   <React.StrictMode>
     <GlobalStyle />
-    <AppContainer>
-      <App />
-    </AppContainer>
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

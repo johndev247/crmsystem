@@ -1,17 +1,16 @@
 import React from "react";
 import { Container } from "../../../Styles/globalStyles";
-import { FooterGrid } from "../../../Styles/grid.style";
-import { CopyRight, FooterSection } from "./footer.style";
+import { CopyRight, FooterDiv, FooterSection } from "./footer.style";
 
 const Footer = () => {
   return (
-    <FooterGrid>
-      <FooterSection>
+    <FooterSection>
+      <FooterDiv>
         <Container>
           <CopyRight> 2021 Crm Ticketing</CopyRight>
         </Container>
-      </FooterSection>
-    </FooterGrid>
+      </FooterDiv>
+    </FooterSection>
   );
 };
 

@@ -19,7 +19,9 @@ const LoginForm = ({
   return (
     <Form onSubmit={handleSubmit}>
       <SignUpButton>
-        <FormRouter onClick={signUp}>Sign Up</FormRouter>
+        <FormRouter style={{ textAlign: "right" }} onClick={signUp}>
+          Sign Up
+        </FormRouter>
       </SignUpButton>
       <Title>Client Login</Title>
       <VertLine />

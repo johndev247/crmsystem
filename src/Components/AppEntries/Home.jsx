@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import ForgetPasswordForm from "../../Components/ForgetPassword/ForgetPasswordForm";
-import LoginForm from "../../Components/Login/LoginForm";
-import RegistrationForm from "../../Components/Register/RegistrationForm";
+import ForgetPasswordForm from "../ForgetPassword/ForgetPasswordForm";
+import LoginForm from "../Login/LoginForm";
+import RegistrationForm from "../Register/RegistrationForm";
 import { Cards } from "../../Styles/globalStyles";
 import { HomePage } from "../../Styles/loingEntry";
 
